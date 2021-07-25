@@ -16,6 +16,7 @@ for(let i = 0; i < matrix.length; i++) {
       matrix[i][j]= 2 ** num;
     }
     num++;
+    console.log(num)
   }
   num-=2;
   console.log(matrix[i])
